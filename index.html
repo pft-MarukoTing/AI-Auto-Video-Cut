@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Auto Video Cut — YCO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ Header ============ -->
+<header class="site-header">
+  <div class="site-header__left">
+    <button class="header-hamburger" id="hamburgerBtn" aria-label="menu"><img src="assets/YCO/icons/mb_nav.png" alt=""></button>
+    <a href="#" class="site-header__logo">
+      <img src="assets/YCO/logos/Logo.png" alt="YCO logo">
+    </a>
+    <nav class="main-nav">
+      <a class="main-nav__link" href="#">Product</a>
+      <a class="main-nav__link" href="#">Use Case</a>
+      <a class="main-nav__link" href="#">API</a>
+      <a class="main-nav__link" href="#">Pricing</a>
+    </nav>
+  </div>
+  <div class="site-header__right">
+    <a class="btn btn-primary btn-header" href="#">Log In / Sign Up</a>
+  </div>
+</header>
+
+<!-- ============ Mobile side menu ============ -->
+<div class="mobile-menu-overlay" id="mobileOverlay"></div>
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu__top">
+    <img src="assets/YCO/logos/mb_Logo.png" alt="YCO logo" class="mobile-menu__logo">
+    <button class="mobile-menu__close" id="mobileMenuClose" aria-label="close"><img src="assets/YCO/icons/mb_nav_close.png" alt=""></button>
+  </div>
+  <a class="mobile-menu__link" href="#">Log In / Sign Up</a>
+  <a class="mobile-menu__link" href="#">Product</a>
+  <a class="mobile-menu__link" href="#">Use Case</a>
+  <a class="mobile-menu__link" href="#">API</a>
+  <a class="mobile-menu__link" href="#">Pricing</a>
+</div>
+
+<main>
+
+  <!-- ============ Topbanner ============ -->
+  <section class="topbanner">
+    <div class="topbanner__media-group">
+      <div class="topbanner__media-placeholder media-placeholder">TOPBANNER VIDEO — placeholder</div>
+    </div>
+    <div class="topbanner__content">
+      <div class="topbanner__content-inner">
+        <h1>AI Auto Video Cut</h1>
+        <p>Upload your clips and photos, add one line about what happened, and AI Auto Video Cut selects the best moments, writes captions, records a voice-over, and adds music, ready to download.</p>
+        <a class="btn btn-primary btn-topbanner-cta" href="#">Try It Now</a>
+        <div class="app-badges">
+          <a href="#"><img src="assets/YCO/icons/apple.png" alt="Download on the App Store"></a>
+          <a href="#"><img src="assets/YCO/icons/google play.png" alt="Get it on Google Play"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Intro: How It Works ============ -->
+  <section class="section intro">
+    <div class="container intro__head">
+      <h2>How AI Auto Video Cut Works</h2>
+      <p class="intro__sub">AI Auto Video Cut combines four AI steps in one pass: it selects the best moments from your clips and photos, applies a narration style or your own description, records a voice-over, and adds captions and music. Only the options you turn on run.</p>
+    </div>
+    <div class="container intro__body">
+      <div class="intro__text">
+        <h3 class="intro__feature-title">Smart Scene Selection: The AI Watches Your Footage So You Don't Have To</h3>
+        <p class="intro__feature-desc">Import up to 60 videos or 300 photos (one photo counts as 5 seconds, 30 seconds total minimum) and the AI picks which moments carry your story. Best for dozens of unsorted clips from a trip; this release generates straight to a finished video, not a manual timeline.</p>
+        <a class="btn btn-outline" href="#">Try It Now</a>
+      </div>
+      <div class="intro__media media-placeholder">FEATURE VIDEO — placeholder</div>
+    </div>
+  </section>
+
+  <!-- ============ How to Use (Steps) ============ -->
+  <section class="section steps-section">
+    <div class="container">
+      <h2 class="steps-title">Create a Finished Video in 5 Steps</h2>
+      <p class="steps-sub">No timeline editor required, generate straight to a finished, downloadable video.</p>
+      <div class="steps steps--5">
+        <div class="step">
+          <div class="step__num"><span class="step__label">STEP</span><span class="step__digit">1</span></div>
+          <div class="step__icon media-placeholder">Step 1</div>
+          <h3 class="step__title">Import Your Media</h3>
+          <p class="step__desc">Add up to 60 videos or 300 photos, up to 30 minutes combined, with at least 30 seconds needed to generate. Tip: one photo counts as 5 seconds if you're short on length.</p>
+        </div>
+        <div class="step">
+          <div class="step__num"><span class="step__label">STEP</span><span class="step__digit">2</span></div>
+          <div class="step__icon media-placeholder">Step 2</div>
+          <h3 class="step__title">Describe Your Video, or Pick a Style</h3>
+          <p class="step__desc">Write a line about what happened, or tap a style chip like Daily Vlog for an instant narration angle. Tip: specific details, names, places, give the AI more to work with.</p>
+        </div>
+        <div class="step">
+          <div class="step__num"><span class="step__label">STEP</span><span class="step__digit">3</span></div>
+          <div class="step__icon media-placeholder">Step 3</div>
+          <h3 class="step__title">Add a Voice-Over (Optional)</h3>
+          <p class="step__desc">Turn Voice-Over on and pick a sample voice, or clone your own from a short recording. Tip: sample voices are free to preview, so try a few before generating.</p>
+        </div>
+        <div class="step">
+          <div class="step__num"><span class="step__label">STEP</span><span class="step__digit">4</span></div>
+          <div class="step__icon media-placeholder">Step 4</div>
+          <h3 class="step__title">Adjust Duration, Aspect Ratio, and Audio</h3>
+          <p class="step__desc">Set duration up to 3 minutes, pick 9:16, 16:9, or 1:1, and toggle music, Smart Audio, web search, and photo motion. Tip: change aspect ratio early, it's only a recommendation from your first clip.</p>
+        </div>
+        <div class="step">
+          <div class="step__num"><span class="step__label">STEP</span><span class="step__digit">5</span></div>
+          <div class="step__icon media-placeholder">Step 5</div>
+          <h3 class="step__title">Generate and Download</h3>
+          <p class="step__desc">Generating runs in the background, so you can keep browsing while it renders; the finished video lands in your history. Tip: start a second project while the first one renders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ============ Every Step, Automated (Zig-zag) ============ -->
+  <section class="section zigzag-section">
+    <div class="container">
+      <h2 class="zigzag-title">AI Auto Video Cut: Every Step, Automated</h2>
+      <p class="zigzag-sub">Trimming clips in a timeline editor, writing captions by hand, recording or licensing a voice-over, and mixing in music by hand often takes an hour or more per finished minute. AI Auto Video Cut automates every step in one pass.</p>
+
+      <div class="zigzag">
+        <div class="zigzag__row">
+          <div class="zigzag__text">
+            <span class="zigzag__num">
+              <span class="zigzag__num-big">01</span>
+              <span class="zigzag__num-small">03</span>
+              <svg class="zigzag__num-slash" viewBox="0 0 69 76.5" preserveAspectRatio="none"><line x1="69" y1="0" x2="0" y2="76.5" stroke="#292621" stroke-width="1.5"/></svg>
+            </span>
+            <h3>Style Presets: A Starting Point for the Story, Not Just a Filter</h3>
+            <p>Six chips, Daily Vlog, General, Travel Memo, Must-Visit, Destination Guide, and Baby Journal, each fill in a proven narration angle. Best for a quick tone when you're unsure how to describe your footage; a style only shapes narration, not which clips get chosen.</p>
+            <a class="btn btn-primary" href="#">Try It Now</a>
+          </div>
+          <div class="zigzag__media media-placeholder">Style Presets — placeholder</div>
+        </div>
+
+        <div class="zigzag__row">
+          <div class="zigzag__media media-placeholder">AI Voice-Over — placeholder</div>
+          <div class="zigzag__text">
+            <span class="zigzag__num">
+              <span class="zigzag__num-big">02</span>
+              <span class="zigzag__num-small">03</span>
+              <svg class="zigzag__num-slash" viewBox="0 0 69 76.5" preserveAspectRatio="none"><line x1="69" y1="0" x2="0" y2="76.5" stroke="#292621" stroke-width="1.5"/></svg>
+            </span>
+            <h3>AI Voice-Over, Including Voice Cloning</h3>
+            <p>Pick a free sample narrator voice, filterable by gender and speaking style, or clone your own from a 10 to 15 second recording for a one-time credit cost. Best for a consistent narrator voice; it narrates over your footage, it doesn't sync anyone's lips to new words.</p>
+            <a class="btn btn-primary" href="#">Try It Now</a>
+          </div>
+        </div>
+
+        <div class="zigzag__row">
+          <div class="zigzag__text">
+            <span class="zigzag__num">
+              <span class="zigzag__num-big">03</span>
+              <span class="zigzag__num-small">03</span>
+              <svg class="zigzag__num-slash" viewBox="0 0 69 76.5" preserveAspectRatio="none"><line x1="69" y1="0" x2="0" y2="76.5" stroke="#292621" stroke-width="1.5"/></svg>
+            </span>
+            <h3>Automatic Captions, Music, and Smart Audio</h3>
+            <p>Background Music auto-picks a track, Smart Audio keeps your footage's own sound prioritized, and Add Motion to Photos pans and zooms stills. Captions and subtitles follow your voice-over language. Best for reformatting one clip into 9:16, 16:9, or 1:1 without reshooting.</p>
+            <a class="btn btn-primary" href="#">Try It Now</a>
+          </div>
+          <div class="zigzag__media media-placeholder">Captions &amp; Music — placeholder</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ============ FAQ ============ -->
+  <section class="section faq-section">
+    <div class="container">
+      <h2 class="faq-title">AI Auto Video Cut FAQs</h2>
+      <div class="faq-list">
+        <div class="faq-item is-open">
+          <button class="faq-item__q">
+            <span>What media can I upload, and how much?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_open.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Up to 60 videos or 300 photos, each video up to 10 minutes, 30 minutes combined maximum, with at least 30 seconds needed to generate.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>Does it cost credits, and how is the price calculated?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Yes, cost depends on your footage length, output length, and which optional features are on. The exact credit cost shows live on the Generate button before you commit.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>Can I edit the video after it's generated?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Not in this release. It generates straight to a finished video rather than an editor. Adjust your description or settings and generate again instead.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>How does voice cloning work, and what are its limits?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Record or import a 10 to 60 second sample to clone a reusable voice for a one-time credit cost. A clear, single-speaker sample with minimal noise gives the best likeness.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>How long is my generated video available?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Generated videos stay available for 30 days and remain visible if you reload or come back later. Download anything you want to keep.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>Can I put a video like this together manually, without AI?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Yes, with more time: trimming clips in a timeline editor, writing captions by hand, recording or licensing a voice-over, and mixing in music, often an hour or more per finished minute. Auto Video Cut automates each step in one pass.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>Can I animate illustrations or AI-generated characters, not just real photos?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Yes, illustrated and AI-generated character images are supported alongside real photos.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>Is there a limit on reference video length?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Yes, reference videos have a maximum supported length; trim longer clips to the key motion segment before uploading.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__brand">
+      <img src="assets/YCO/logos/footer_logo.png" alt="YCO logo" class="site-footer__logo">
+      <p class="site-footer__copyright">2026 © Perfect Corp. All Rights Reserved.</p>
+      <button class="lang-switch" id="langSwitchBtn">
+        <img src="assets/YCO/icons/ico_language.png" alt="">
+        <img class="lang-switch__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+      </button>
+    </div>
+    <div class="site-footer__cols">
+      <div class="site-footer__col">
+        <p class="site-footer__col-title">Product</p>
+        <a href="#">Photo Enhance</a>
+        <a href="#">Object removal</a>
+        <a href="#">Remove background</a>
+        <a href="#">Colorize</a>
+        <a href="#">Lighting</a>
+      </div>
+      <div class="site-footer__col">
+        <p class="site-footer__col-title">Support</p>
+        <a href="#">Pricing</a>
+        <a href="#">Mobile download</a>
+        <a href="#">Blogs</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div class="site-footer__col">
+        <p class="site-footer__col-title">Legal</p>
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Legal notice</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
