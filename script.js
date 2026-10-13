@@ -36,6 +36,26 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  /* ---- Topbanner: swap in the mobile cut (card only, full-bleed) at <=1024px ---- */
+  var tbVideo = document.querySelector('.topbanner__media[data-src-desktop]');
+  if (tbVideo) {
+    var tbMq = window.matchMedia('(max-width: 1024px)');
+    var tbApply = function () {
+      var m = tbMq.matches;
+      var src = m ? tbVideo.dataset.srcMobile : tbVideo.dataset.srcDesktop;
+      if (tbVideo.getAttribute('src') !== src) {
+        tbVideo.setAttribute('src', src);
+        if (m && tbVideo.dataset.posterMobile) tbVideo.setAttribute('poster', tbVideo.dataset.posterMobile);
+        tbVideo.load();
+        tbVideo.play().catch(function () {});
+      }
+    };
+    tbApply();
+    if (tbMq.addEventListener) tbMq.addEventListener('change', tbApply);
+    else tbMq.addListener(tbApply);
+  }
+
+
   /* ---- Footer language switch (front-end toggle only) ---- */
   var langBtn = document.getElementById('langSwitchBtn');
   if (langBtn) {
