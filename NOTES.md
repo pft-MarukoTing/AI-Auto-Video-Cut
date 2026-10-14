@@ -2,13 +2,13 @@
 
 日期：2026-10-06
 基底：AI Video Repair 頁面最新的設計系統（Header／手機版 header、Steps 手機版排版、zig-zag、FAQ、Footer）
-內容來源：`https://yce-stage.perfectcorp.com/product-preview?cmsId=473&pageKey=ai-auto-video-cut`（正式站文案，2026-10-13 下午最新版；先前為 cmsId=457）
+內容來源：`https://yce-stage.perfectcorp.com/product-preview?cmsId=473&pageKey=ai-auto-video-cut`（正式站文案，2026-10-14 重新同步；先前為 2026-10-13 下午版）
 
 > 這是新的資料夾。舊的 `Product Page` 資料夾是同一個產品更早的版本（對應 GitHub `AI-Auto-Video-Cut`），這個資料夾是依最新正式站文案重做的。
 
 ## 頁面結構
 
-Header → Topbanner → Intro（標題＋副標，下面 2 個功能重點：Smart Scene Selection／No Timeline Editor Needed，左右交錯）→ How to Use（5 步）→ Beyond Editing（Zig-zag ×3）→ Why Use YouCam AI Auto Video Edit（Zig-zag ×3）→ FAQ（6 則）→ Footer。
+Header → Topbanner → Intro（標題＋副標，下面 2 個功能重點：Smart Scene Selection／No Timeline Editor Needed，左右交錯）→ How to Use（5 步）→ Beyond Editing（Zig-zag ×3）→ Why Use YouCam AI Auto Video Edit（Zig-zag ×2：Social KOLs、From Travel Clips）→ FAQ（6 則）→ Footer。
 
 ## 素材
 
@@ -33,7 +33,16 @@ Header → Topbanner → Intro（標題＋副標，下面 2 個功能重點：Sm
 
 其餘**影片／圖片仍是虛線佔位框**，還沒有素材：Topbanner、Intro 兩個功能示範、Step 1–5 圖、兩組 zig-zag 共 6 個示範。素材到位後告訴我，我會對應放入。
 
-## 正式站文案（2026-10-13 下午依 cmsId=473 最新版）
+## 2026-10-14 同步（cmsId=473，相對 10/13 下午版的變更）
+
+1. Topbanner 說明改為「With just one upload, AI automatically turns your photos and videos into eye-catching videos in any style—from daily vlogs to travel memos, with zero effort.」
+2. Intro 功能 1 標題改為「One Upload. AI Does the Rest」；說明開頭改為「Upload photos, videos, or both;」，結尾「Every new look」改為「Every step」。
+3. Beyond Editing 第 1 列標題改為「Style Presets: Daily Vlog, Travel Memo & More」；Auto Voice-Over 圖片 alt 改為「Auto Voice-Over: Studio-Quality Narration」。
+4. Why Use：正式站**恢復 Travel Clips、移除 Stream Highlights**（現為 01/02 Social KOLs、02/02 From Travel Clips）。本機已取消 Travel Clips 的註解隱藏；兩段 Stream Highlights（`stream-highlights.mp4`、`stream-highlights-a.mp4`）改用註解隱藏，素材檔保留。
+5. 正式站圖片／影片目前全是 CMS 佔位圖（`YCO_Placeholder_…`），本機素材維持設計團隊提供的版本，未更動。
+6. 正式站頁面最上方另有站台層級的活動橫幅（「Seedance 2.5 全新上線…」）與麵包屑（首頁 / AI Auto Video Edit），不屬於這個產品頁內容，本機未加入。
+
+## 正式站文案（2026-10-13 下午版，已被上方 10/14 同步取代的部分以上方為準）
 
 來源：`https://yce-stage.perfectcorp.com/product-preview?cmsId=473&pageKey=ai-auto-video-cut`。這頁在同一天內又改過一次，本機已逐行比對一致（只差麵包屑「Home」）。相對上午那版的變更：
 
