@@ -29,7 +29,7 @@ Header → Topbanner → Intro（標題＋副標，下面 2 個功能重點：Sm
 | Step 2 Describe your video, or pick a style | `assets/page/step/step02.png` | `Mediterranean Coast Photo Selector-1.png` | 24KB；畫面是提示輸入框＋風格縮圖選擇 |
 | Step 3 Add a voice-over | `assets/page/step/step03.png` | `Blue microphone voice-selection card-3.png` | 18KB |
 | Step 4 Adjust your video settings | `assets/page/step/step04.png` | `Minimal 16_9 settings tiles-4.png` | 14KB |
-| Step 5 Generate and download | `assets/page/step/step05.png` | `Tropical bay video thumbnail-5.png` | 32KB |
+| Step 5 Generate and download | `assets/page/step/step05.png` | `~/Downloads/YCO_img_Face_Retouch_S3_03.png`（10/15 10:54，300×300；下載鈕放大、影片縮圖不變，取代 `Tropical bay video download illustration-3.png`） | pngquant 壓縮，108KB → 28KB
 
 其餘**影片／圖片仍是虛線佔位框**，還沒有素材：Topbanner、Intro 兩個功能示範、Step 1–5 圖、兩組 zig-zag 共 6 個示範。素材到位後告訴我，我會對應放入。
 
