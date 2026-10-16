@@ -270,7 +270,7 @@ h1,h2,h3,p{margin:0;}
   .lbl-short{display:inline;}
 
   .topbanner{background:none;}
-  .topbanner__media-group{aspect-ratio:3/2;}
+  .topbanner__media-group{aspect-ratio:13/10;}
   .topbanner__media{object-position:center;}
   .topbanner__content{
     position:static;width:100%;max-width:100%;height:auto;
